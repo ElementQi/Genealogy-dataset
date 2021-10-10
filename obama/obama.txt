@@ -1,0 +1,25 @@
+# description of the Genealogy
+# from left to right, top to bottom
+# Obama family snips
+
+1. Hussein Onyango Obama
+2. Habiba Akumu Obama
+3. Barack Obama Sr.
+4. Ann Dunham
+5. Barack Obama
+6. Michelle Obama
+7. Malia Obama
+8. Sasha Obama
+
+# relationship between the family
+# using YAML method
+# list for every line which contains three parameters meaning [from, to, description]. to is description of from.
+
+relations:
+    - [1, 2, husband]
+    - [1, 3, son]
+    - [3, 4, husband]
+    - [3, 5, son]
+    - [6, 5, husband]
+    - [5, 7, daughter]
+    - [5, 8, daughter]

@@ -1,0 +1,26 @@
+# description of the Genealogy
+# from left to right, top to bottom
+# Musk family snips
+
+1. Walter Henry James Musk
+2. Cora Amelia Musk
+3. Joshua Norman Haldeman
+4. Winnifred Josephine Haldeman
+5. Errol Musk
+6. Maye Musk
+7. Kimbal Musk
+8. Tosca Musk
+9. Elon Musk
+
+# relationship between the family
+# using YAML method
+# list for every line which contains three parameters meaning [from, to, description]. to is description of from.
+
+relations:
+    - [2, 1, husband]
+    - [4, 3, husband]
+    - [1, 5, son]
+    - [6, 5, husband]
+    - [5, 7, son]
+    - [5, 8, daughter]
+    - [5, 9, son]

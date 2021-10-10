@@ -1,0 +1,28 @@
+# description of the Genealogy
+# from left to right, top to bottom
+# Mao(毛) family snips
+
+1. 毛贻昌
+2. 文七妹
+3. 向振熙
+4. 杨昌济
+5. 毛泽东
+6. 杨开慧
+7. 毛岸英
+8. 毛岸青
+9. 邵华
+10. 毛新宇
+
+# relationship between the family
+# using YAML method
+# list for every line which contains three parameters meaning [from, to, description]. to is description of from.
+
+relations:
+    - [2, 1, husband]
+    - [3, 4, husband]
+    - [1, 5, son]
+    - [4, 6, daughter]
+    - [5, 7, son]
+    - [5, 8, son]
+    - [9, 8, husband]
+    - [8, 10, son]

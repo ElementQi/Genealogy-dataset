@@ -1,0 +1,31 @@
+# description of the Genealogy
+# from left to right, top to bottom
+# Trump family snips
+
+1. Mary Trump
+2. Fred Trump
+3. Maryanne Trump Barry
+4. Fred Trump Jr
+5. Elizabeth Trump Grau
+6. Robert Trump
+7. Donald Trump
+8. Ivana Trump
+9. Donald Trump Jr
+10. Ivanka Trump
+11. Eric Trump
+
+# relationship between the family
+# using YAML method
+# list for every line which contains three parameters meaning [from, to, description]. to is description of from.
+
+relations:
+    - [1, 2, husband]
+    - [2, 3, daughter]
+    - [2, 4, son]
+    - [2, 5, daughter]
+    - [2, 6, son]
+    - [2, 7, son]
+    - [8, 7, husband]
+    - [7, 9, son]
+    - [7, 10, daughter]
+    - [7, 11, son]

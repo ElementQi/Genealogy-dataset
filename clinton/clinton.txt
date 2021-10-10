@@ -1,0 +1,19 @@
+# description of the Genealogy
+# from left to right, top to bottom
+# Clinton family snips
+
+1. Virginia Clinton Kelley
+2. William J. Blythe Jr.
+3. Bill Clinton
+4. Hillary Clinton
+5. Chelsea Clinton
+
+# relationship between the family
+# using YAML method
+# list for every line which contains three parameters meaning [from, to, description]. to is description of from.
+
+relations:
+    - [2, 1, husband]
+    - [2, 3, son]
+    - [4, 3, husband]
+    - [3, 5, daughter]
