@@ -9,3 +9,5 @@ Every folder has the family name and each folder contains three files which are 
 @Time: 2021/10/11 (yyyy/mm/dd)
 
 @Email: limq19@lzu.edu.cn or 1033834827@qq.com
+
+@Github: https://github.com/ElementQi/Genealogy-dataset
